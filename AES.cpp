@@ -250,7 +250,7 @@ int main()
     unsigned char* padded_msg = new unsigned char[len_of_padded_msg];
     for(int i=0;i<len_of_padded_msg;i++)
     {
-        if(i>=len_of_padded_msg)
+        if(i>=len_of_msg)
             padded_msg[i]=0;
         else
             padded_msg[i]=message[i];
